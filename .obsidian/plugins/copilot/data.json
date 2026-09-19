@@ -31,7 +31,7 @@
   "defaultConversationTag": "copilot-conversation",
   "autosaveChat": true,
   "autoAddActiveContentToContext": true,
-  "defaultOpenArea": "view",
+  "defaultOpenArea": "editor",
   "defaultSendShortcut": "enter",
   "customPromptsFolder": "copilot/copilot-custom-prompts",
   "qaExclusions": "copilot",
@@ -377,7 +377,7 @@
       "providerType": "openai-compatible",
       "displayName": "AQUA",
       "baseUrl": "https://api.ltzy.top/v1",
-      "enableCors": false,
+      "enableCors": true,
       "requiresApiKey": false,
       "origin": {
         "kind": "byok"
