@@ -188,6 +188,16 @@
           "icon": "history",
           "title": "History"
         }
+      },
+      {
+        "id": "518d2ab02079fc87",
+        "type": "leaf",
+        "state": {
+          "type": "copilot-chat-view",
+          "state": {},
+          "icon": "message-square",
+          "title": "Copilot (Quick Chat)"
+        }
       }
     ],
     "currentTab": 3
@@ -202,10 +212,11 @@
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-camera:Obsidian Camera": false
+      "copilot:Open Copilot Chat": false,
+      "camera-embed:Capture photo": false
     }
   },
-  "active": "f86db99fe310301e",
+  "active": "5f89b9baf4f5a2c5",
   "lastOpenFiles": [
     "IMG20260919131410.jpg",
     "日记/2026年9月19日.md",
