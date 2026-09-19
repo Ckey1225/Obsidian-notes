@@ -200,7 +200,7 @@
         }
       }
     ],
-    "currentTab": 5
+    "currentTab": 3
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -216,7 +216,7 @@
       "camera-embed:Capture photo": false
     }
   },
-  "active": "518d2ab02079fc87",
+  "active": "60665cdafccd86d9",
   "lastOpenFiles": [
     "copilot/copilot-conversations/Chat_Model_Connection_Errors@20260919_132324.md",
     "copilot/copilot-conversations",

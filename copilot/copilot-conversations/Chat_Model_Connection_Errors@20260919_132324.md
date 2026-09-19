@@ -109,3 +109,7 @@ more message: Failed to fetch</errorChunk>
 
 **user**: 你好
 [Timestamp: 2026/09/19 13:35:22]
+
+**ai**: 
+<errorChunk>Unexpected non-whitespace character after JSON at position 277 (line 2 column 1)</errorChunk>
+[Timestamp: 2026/09/19 13:35:42]
