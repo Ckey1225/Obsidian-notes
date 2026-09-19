@@ -396,17 +396,50 @@
         "displayName": "auto"
       },
       "configuredAt": 1789795632440
+    },
+    {
+      "configuredModelId": "9b6a5e14-a528-4eb8-820a-a3ed17393448",
+      "providerId": "656fb31e-1469-4c57-bfba-1b21d025f4f9",
+      "info": {
+        "id": "acu/deepseek-v4-flash",
+        "displayName": "acu/deepseek-v4-flash"
+      },
+      "configuredAt": 1789795811458
+    },
+    {
+      "configuredModelId": "33abbf11-8e8c-4a1c-a96e-c7591e53caa7",
+      "providerId": "656fb31e-1469-4c57-bfba-1b21d025f4f9",
+      "info": {
+        "id": "acu/deepseek-v4-pro",
+        "displayName": "acu/deepseek-v4-pro"
+      },
+      "configuredAt": 1789795811458
+    },
+    {
+      "configuredModelId": "cfe0efe7-7d64-4873-b29a-a230968c63fa",
+      "providerId": "656fb31e-1469-4c57-bfba-1b21d025f4f9",
+      "info": {
+        "id": "aqua/deepseek-v4-1-flash",
+        "displayName": "aqua/deepseek-v4-1-flash"
+      },
+      "configuredAt": 1789795811458
     }
   ],
   "backends": {
     "chat": {
       "enabledModels": [
-        "cc9e5eaf-fc0a-405c-9264-930e167a2b62"
+        "cc9e5eaf-fc0a-405c-9264-930e167a2b62",
+        "9b6a5e14-a528-4eb8-820a-a3ed17393448",
+        "33abbf11-8e8c-4a1c-a96e-c7591e53caa7",
+        "cfe0efe7-7d64-4873-b29a-a230968c63fa"
       ]
     },
     "opencode": {
       "enabledModels": [
-        "cc9e5eaf-fc0a-405c-9264-930e167a2b62"
+        "cc9e5eaf-fc0a-405c-9264-930e167a2b62",
+        "9b6a5e14-a528-4eb8-820a-a3ed17393448",
+        "33abbf11-8e8c-4a1c-a96e-c7591e53caa7",
+        "cfe0efe7-7d64-4873-b29a-a230968c63fa"
       ]
     }
   },
