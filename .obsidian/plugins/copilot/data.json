@@ -31,7 +31,7 @@
   "defaultConversationTag": "copilot-conversation",
   "autosaveChat": true,
   "autoAddActiveContentToContext": true,
-  "defaultOpenArea": "editor",
+  "defaultOpenArea": "view",
   "defaultSendShortcut": "enter",
   "customPromptsFolder": "copilot/copilot-custom-prompts",
   "qaExclusions": "copilot",
