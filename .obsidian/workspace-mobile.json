@@ -208,6 +208,16 @@
           "icon": "git-pull-request",
           "title": "Source Control"
         }
+      },
+      {
+        "id": "cbf7af578c9e2d38",
+        "type": "leaf",
+        "state": {
+          "type": "git-history-view",
+          "state": {},
+          "icon": "history",
+          "title": "History"
+        }
       }
     ],
     "currentTab": 3
@@ -224,7 +234,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a40faf46ee1c42c1",
+  "active": "8f6df64957902f23",
   "lastOpenFiles": [
     "柯西不等式.md"
   ]
