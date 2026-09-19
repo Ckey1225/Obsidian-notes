@@ -1,5 +1,6 @@
 {
   "phycat-colors@@light-color-scheme": "theme-light-sakura",
   "phycat-layout@@rainbow-folders": true,
-  "phycat-layout@@layout-style": "layout-default"
+  "phycat-layout@@layout-style": "layout-default",
+  "phycat-headings@@h1-alignment": "h1-align-left"
 }

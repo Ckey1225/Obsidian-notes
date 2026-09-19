@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "嵌入图片.md",
+                "file": "学习/向量最小值求法.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "嵌入图片"
+              "title": "向量最小值求法"
             }
           }
         ],
@@ -127,7 +127,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "嵌入图片.md",
+            "file": "学习/柯西不等式.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -219,6 +219,8 @@
   "active": "5f89b9baf4f5a2c5",
   "lastOpenFiles": [
     "学习/柯西不等式.md",
+    "学习/向量最小值求法.md",
+    "copilot/copilot-conversations/排版优化请求失败@20260919_134323.md",
     "嵌入图片.md",
     "日记/2026年9月19日.md",
     "copilot/copilot-conversations/Chat_Model_Connection_Errors@20260919_132324.md",
@@ -226,7 +228,6 @@
     "copilot",
     "IMG20260919131410.jpg",
     "日记",
-    "学习",
-    "学习/向量最小值求法.md"
+    "学习"
   ]
 }
