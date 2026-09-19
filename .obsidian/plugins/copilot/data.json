@@ -1,5 +1,5 @@
 {
-  "userId": "91c0a44a-dc1b-4c39-a8b8-3c05a5c4062b",
+  "userId": "11a15cf1-2089-46e9-a4e6-69e290b1c24b",
   "isPaidUser": false,
   "isPlusUser": false,
   "entitlementToken": "",
@@ -144,7 +144,7 @@
     {
       "name": "google/gemini-3.1-pro-preview",
       "provider": "openrouterai",
-      "enabled": false,
+      "enabled": true,
       "isBuiltIn": true,
       "capabilities": [
         "vision",
@@ -155,7 +155,7 @@
     {
       "name": "google/gemini-2.5-pro",
       "provider": "openrouterai",
-      "enabled": false,
+      "enabled": true,
       "isBuiltIn": true,
       "core": false,
       "capabilities": [
@@ -166,7 +166,7 @@
     {
       "name": "openai/gpt-5.5",
       "provider": "openrouterai",
-      "enabled": false,
+      "enabled": true,
       "isBuiltIn": true,
       "core": false,
       "capabilities": [
@@ -177,7 +177,7 @@
     {
       "name": "openai/gpt-5.4-mini",
       "provider": "openrouterai",
-      "enabled": false,
+      "enabled": true,
       "isBuiltIn": true,
       "core": false,
       "capabilities": [
@@ -188,7 +188,7 @@
     {
       "name": "grok-4.3",
       "provider": "xai",
-      "enabled": false,
+      "enabled": true,
       "isBuiltIn": true,
       "core": false,
       "capabilities": [
@@ -199,7 +199,7 @@
     {
       "name": "x-ai/grok-4.3",
       "provider": "openrouterai",
-      "enabled": false,
+      "enabled": true,
       "isBuiltIn": true,
       "core": false,
       "capabilities": [
@@ -210,7 +210,7 @@
     {
       "name": "gpt-4.1",
       "provider": "openai",
-      "enabled": false,
+      "enabled": true,
       "isBuiltIn": true,
       "core": false,
       "capabilities": [
@@ -221,7 +221,7 @@
     {
       "name": "gpt-4.1-mini",
       "provider": "openai",
-      "enabled": false,
+      "enabled": true,
       "isBuiltIn": true,
       "core": false,
       "capabilities": [
@@ -232,7 +232,7 @@
     {
       "name": "claude-opus-4-7",
       "provider": "anthropic",
-      "enabled": false,
+      "enabled": true,
       "isBuiltIn": true,
       "capabilities": [
         "vision",
@@ -243,7 +243,7 @@
     {
       "name": "claude-haiku-4-5",
       "provider": "anthropic",
-      "enabled": false,
+      "enabled": true,
       "isBuiltIn": true,
       "capabilities": [
         "vision",
@@ -254,7 +254,7 @@
     {
       "name": "gemini-3.1-pro-preview",
       "provider": "google",
-      "enabled": false,
+      "enabled": true,
       "isBuiltIn": true,
       "capabilities": [
         "vision",
@@ -265,7 +265,7 @@
     {
       "name": "gemini-2.5-pro",
       "provider": "google",
-      "enabled": false,
+      "enabled": true,
       "isBuiltIn": true,
       "capabilities": [
         "vision"
@@ -275,14 +275,14 @@
     {
       "name": "deepseek-chat",
       "provider": "deepseek",
-      "enabled": false,
+      "enabled": true,
       "isBuiltIn": true,
       "apiKey": ""
     },
     {
       "name": "deepseek-reasoner",
       "provider": "deepseek",
-      "enabled": false,
+      "enabled": true,
       "isBuiltIn": true,
       "capabilities": [
         "reasoning"
@@ -292,7 +292,7 @@
     {
       "name": "deepseek-ai/DeepSeek-V3",
       "provider": "siliconflow",
-      "enabled": false,
+      "enabled": true,
       "isBuiltIn": false,
       "baseUrl": "https://api.siliconflow.com/v1",
       "apiKey": ""
@@ -300,7 +300,7 @@
     {
       "name": "deepseek-ai/DeepSeek-R1",
       "provider": "siliconflow",
-      "enabled": false,
+      "enabled": true,
       "isBuiltIn": false,
       "baseUrl": "https://api.siliconflow.com/v1",
       "capabilities": [
@@ -372,9 +372,44 @@
       "folder": "copilot/skills"
     }
   },
-  "providers": {},
-  "configuredModels": [],
-  "backends": {},
+  "providers": {
+    "656fb31e-1469-4c57-bfba-1b21d025f4f9": {
+      "providerType": "openai-compatible",
+      "displayName": "AQUA",
+      "baseUrl": "https://api.ltzy.top/v1",
+      "enableCors": false,
+      "requiresApiKey": false,
+      "origin": {
+        "kind": "byok"
+      },
+      "providerId": "656fb31e-1469-4c57-bfba-1b21d025f4f9",
+      "addedAt": 1789795632437,
+      "apiKeyKeychainId": "copilot-v2ed9ff5e-provider-656fb31e-1469-4c57-bfba-1b21d025f4f9"
+    }
+  },
+  "configuredModels": [
+    {
+      "configuredModelId": "cc9e5eaf-fc0a-405c-9264-930e167a2b62",
+      "providerId": "656fb31e-1469-4c57-bfba-1b21d025f4f9",
+      "info": {
+        "id": "auto",
+        "displayName": "auto"
+      },
+      "configuredAt": 1789795632440
+    }
+  ],
+  "backends": {
+    "chat": {
+      "enabledModels": [
+        "cc9e5eaf-fc0a-405c-9264-930e167a2b62"
+      ]
+    },
+    "opencode": {
+      "enabledModels": [
+        "cc9e5eaf-fc0a-405c-9264-930e167a2b62"
+      ]
+    }
+  },
   "copilotPlusCatalog": {
     "models": [
       {
