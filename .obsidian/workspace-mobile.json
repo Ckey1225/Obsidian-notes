@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "语文作文/数智之光，向善而行.md",
-                "mode": "preview",
+                "file": "我的reform dan.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "数智之光，向善而行"
+              "title": "我的reform dan"
             }
           }
         ],
@@ -216,10 +216,11 @@
       "camera-embed:Capture photo": false
     }
   },
-  "active": "60665cdafccd86d9",
+  "active": "5f89b9baf4f5a2c5",
   "lastOpenFiles": [
-    "学习/向量最小值求法.md",
     "语文作文/数智之光，向善而行.md",
+    "我的reform dan.md",
+    "学习/向量最小值求法.md",
     "语文作文",
     "学习/柯西不等式.md",
     "copilot/copilot-conversations/排版优化请求失败@20260919_134323.md",
